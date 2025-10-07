@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 0.5rem;
 }
 
@@ -83,6 +83,7 @@ li {
 .header h1 {
     color: white;
     margin-bottom: 0.5rem;
+    font-size: 1.8rem;
 }
 
 .tagline {
@@ -484,7 +485,7 @@ li {
     }
     
     .header h1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     
     .tagline {
@@ -554,7 +555,7 @@ li {
 @media (max-width: 480px) {
     /* Extra small screens */
     .header h1 {
-        font-size: 1.75rem;
+        font-size: 1.4rem;
     }
     
     .banner-image {
@@ -626,6 +627,161 @@ li {
 /* Smooth scrolling for better UX */
 html {
     scroll-behavior: smooth;
+}
+
+/* ===========================================
+   Member Detail Page Styles
+   =========================================== */
+
+.member-detail-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.member-detail-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    margin-bottom: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-detail-avatar {
+    margin-bottom: 1.5rem;
+}
+
+.detail-avatar-image {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #3498db;
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.2);
+}
+
+.member-detail-name {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.member-detail-role {
+    color: #3498db;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.member-detail-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.detail-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    max-width: 100%;
+}
+
+.detail-section {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+    border-left: 4px solid #3498db;
+}
+
+.detail-section h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 0.5rem;
+}
+
+.detail-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.detail-section li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #f8f9fa;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.detail-section li:last-child {
+    border-bottom: none;
+}
+
+.detail-section strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Member detail responsive */
+@media (max-width: 768px) {
+    .member-detail-card {
+        padding: 1.5rem 1rem;
+        margin: 0.5rem;
+    }
+    
+    .detail-avatar-image {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .member-detail-name {
+        font-size: 1.75rem;
+    }
+    
+    .member-detail-role {
+        font-size: 1rem;
+    }
+    
+    .detail-sections {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .detail-section {
+        padding: 1.25rem;
+        margin: 0 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .member-detail-card {
+        padding: 1.25rem 0.75rem;
+    }
+    
+    .detail-avatar-image {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .member-detail-name {
+        font-size: 1.5rem;
+    }
+    
+    .detail-sections {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+    
+    .detail-section {
+        padding: 1rem 0.75rem;
+    }
 }
 
 /* ===========================================
