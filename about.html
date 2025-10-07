@@ -1,99 +1,168 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RoseCompany Group - Giới Thiệu Nhóm</title>
+    <title>RoseCompany Group - Giới Thiệu</title>
     <link rel="stylesheet" href="default.css">
 </head>
+
 <body>
-    <!-- Header -->
+    <!-- Animated Background -->
+    <div class="bg-gradient"></div>
+    <div class="particles-container"></div>
+
+    <!-- Floating Header -->
     <header class="header">
-        <h1>RoseCompany Group</h1>
+        <div class="header-content">
+            <div class="logo">
+                <h1>RoseCompany</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="default.html" class="nav-link">Trang Chủ</a></li>
+                    <li><a href="about.html" class="nav-link active">Giới Thiệu</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <!-- Navigation -->
-    <nav class="nav">
-        <ul class="nav-list">
-            <li><a href="default.html" class="nav-link">Trang Chủ</a></li>
-            <li><a href="about.html" class="nav-link active">Giới Thiệu</a></li>
-        </ul>
-    </nav>
-
-    <!-- Main Content -->
-    <main class="main-content">
+    <!-- Page Header -->
+    <section class="page-header">
         <div class="container">
-            <section class="about-section">
-                <h2>Thành Viên Nhóm</h2>
-                <p class="section-intro">Gặp gỡ đội ngũ tài năng và nhiệt huyết của RoseCompany Group - những con người đứng sau những dự án thành công.</p>
-                
-                <div class="team-grid">
-                    <a href="members/22120235/22120235.html" class="member-card">
-                        <div class="member-avatar">
-                            <img src="images/Nguyen.jpg" alt="Avatar Nguyen" class="avatar-image">
-                        </div>
-                        <div class="member-info">
-                            <h3 class="member-name">Hoàng Thanh Thảo Nguyên</h3>
-                            <p class="member-role">Trưởng nhóm - Project Manager</p>
-                            <p class="member-description">Với hơn 5 năm kinh nghiệm trong quản lý dự án, A luôn đảm bảo các dự án được hoàn thành đúng thời hạn và chất lượng cao nhất.</p>
-                            <span class="click-hint">Nhấn để xem chi tiết</span>
-                        </div>
-                    </a>
+            <h1 class="page-title">Gặp gỡ đội ngũ của chúng tôi</h1>
+            <p class="page-subtitle">Những sinh viên đam mê công nghệ và sáng tạo</p>
+        </div>
+    </section>
 
-                    <a href="members/22120219/22120219.html" class="member-card">
-                        <div class="member-avatar">
-                            <img src="images/Nam.jpg" alt="Avatar Nam" class="avatar-image">
-                        </div>
-                        <div class="member-info">
-                            <h3 class="member-name">Mai Nhật Nam</h3>
-                            <p class="member-role">Lead Developer</p>
-                            <p class="member-description">Chuyên gia phát triển phần mềm với kiến thức sâu rộng về các công nghệ hiện đại. B luôn tìm kiếm những giải pháp tối ưu nhất.</p>
-                            <span class="click-hint">Nhấn để xem chi tiết</span>
-                        </div>
-                    </a>
-
-                    <a href="members/22120263/22120263.html" class="member-card">
-                        <div class="member-avatar">
-                            <img src="images/Phat.jpg" alt="Avatar Nguyễn Thành Phát" class="avatar-image">
-                        </div>
-                        <div class="member-info">
-                            <h3 class="member-name">Nguyễn Thành Phát</h3>
-                            <p class="member-role">Full-stack Developer</p>
-                            <p class="member-description">Nhà phát triển phần mềm sáng tạo tạo ra những giao diện đẹp mắt và trải nghiệm người dùng tuyệt vời.</p>
-                            <span class="click-hint">Nhấn để xem chi tiết</span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="team-values">
-                    <h3>Giá trị cốt lõi của chúng tôi</h3>
-                    <div class="values-grid">
-                        <div class="value-item">
-                            <h4>Đổi mới</h4>
-                            <p>Luôn tìm kiếm những giải pháp sáng tạo và tiên tiến</p>
-                        </div>
-                        <div class="value-item">
-                            <h4>Chất lượng</h4>
-                            <p>Cam kết mang đến sản phẩm và dịch vụ chất lượng cao nhất</p>
-                        </div>
-                        <div class="value-item">
-                            <h4>Hợp tác</h4>
-                            <p>Làm việc nhóm hiệu quả và tôn trọng lẫn nhau</p>
-                        </div>
-                        <div class="value-item">
-                            <h4>Trách nhiệm</h4>
-                            <p>Chịu trách nhiệm với từng cam kết và kết quả đạt được</p>
+    <!-- Team Section -->
+    <section class="team-section">
+        <div class="container">
+            <div class="team-grid">
+                <!-- Member 1 -->
+                <a href="members/22120235/22120235.html" class="member-card">
+                    <div class="card-glow"></div>
+                    <div class="member-avatar">
+                        <img src="images/Nguyen.jpg" alt="Hoàng Thanh Thảo Nguyên" class="avatar-img">
+                        <div class="avatar-ring"></div>
+                    </div>
+                    <div class="member-content">
+                        <h3 class="member-name">Hoàng Thảo Nguyên</h3>
+                        <p class="member-role">Team Leader</p>
+                        <p class="member-id">MSSV: 22120235</p>
+                        <p class="member-desc">Trưởng nhóm, quản lý dự án và điều phối công việc. </p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Project Management</span>
+                            <span class="skill-tag">Frontend</span>
                         </div>
                     </div>
-                </div>
-            </section>
+                    <div class="card-arrow">→</div>
+                </a>
+
+                <!-- Member 2 -->
+                <a href="members/22120219/22120219.html" class="member-card">
+                    <div class="card-glow"></div>
+                    <div class="member-avatar">
+                        <img src="images/Nam.jpg" alt="Mai Nhật Nam" class="avatar-img">
+                        <div class="avatar-ring"></div>
+                    </div>
+                    <div class="member-content">
+                        <h3 class="member-name">Mai Nhật Nam</h3>
+                        <p class="member-role">Lead Developer</p>
+                        <p class="member-id">MSSV: 22120219</p>
+                        <p class="member-desc">Chuyên về phát triển phần mềm, luôn tìm kiếm giải pháp tối ưu và công
+                            nghệ mới.</p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Full-stack</span>
+                            <span class="skill-tag">Backend</span>
+                            <span class="skill-tag">Database</span>
+                        </div>
+                    </div>
+                    <div class="card-arrow">→</div>
+                </a>
+
+                <!-- Member 3 -->
+                <a href="members/22120263/22120263.html" class="member-card">
+                    <div class="card-glow"></div>
+                    <div class="member-avatar">
+                        <img src="images/Phat.jpg" alt="Nguyễn Thành Phát" class="avatar-img">
+                        <div class="avatar-ring"></div>
+                    </div>
+                    <div class="member-content">
+                        <h3 class="member-name">Nguyễn Thành Phát</h3>
+                        <p class="member-role">Full-stack Developer</p>
+                        <p class="member-id">MSSV: 22120263</p>
+                        <p class="member-desc">Phát triển giao diện người dùng đẹp mắt và trải nghiệm người dùng tuyệt
+                            vời.</p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Frontend</span>
+                            <span class="skill-tag">UI/UX</span>
+                            <span class="skill-tag">Design</span>
+                        </div>
+                    </div>
+                    <div class="card-arrow">→</div>
+                </a>
+            </div>
         </div>
-    </main>
+    </section>
+
+    <!-- Values Section -->
+    <section class="values-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Giá trị cốt lõi</h2>
+                <p class="section-subtitle">Những nguyên tắc định hướng cách chúng tôi làm việc</p>
+            </div>
+
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">🚀</div>
+                    <h3>Đổi mới</h3>
+                    <p>Luôn tìm kiếm những giải pháp sáng tạo và tiên tiến cho mọi vấn đề</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">⭐</div>
+                    <h3>Chất lượng</h3>
+                    <p>Cam kết mang đến sản phẩm và code chất lượng cao trong mọi dự án</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">🤝</div>
+                    <h3>Hợp tác</h3>
+                    <p>Làm việc nhóm hiệu quả, chia sẻ kiến thức và hỗ trợ lẫn nhau</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">💪</div>
+                    <h3>Trách nhiệm</h3>
+                    <p>Chịu trách nhiệm với từng cam kết và kết quả công việc</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">📚</div>
+                    <h3>Học hỏi</h3>
+                    <p>Không ngừng học hỏi và cập nhật kiến thức, công nghệ mới</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">🎯</div>
+                    <h3>Đam mê</h3>
+                    <p>Yêu thích công nghệ và luôn nhiệt huyết với mọi dự án</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2025 RoseCompany Group. Tất cả quyền được bảo lưu.</p>
+        <div class="container">
+            <p>&copy; 2025 RoseCompany Group. Tất cả quyền được bảo lưu.</p>
+        </div>
     </footer>
 
+    <script src="default.css"></script>
 </body>
+
 </html>

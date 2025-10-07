@@ -1,55 +1,134 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RoseCompany Group - Trang Chủ</title>
     <link rel="stylesheet" href="default.css">
 </head>
+
 <body>
-    <!-- Header -->
+    <!-- Animated Background -->
+    <div class="bg-gradient"></div>
+    <div class="particles-container"></div>
+
+    <!-- Floating Header -->
     <header class="header">
-        <h1>RoseCompany Group</h1>
+        <div class="header-content">
+            <div class="logo">
+                <h1>RoseCompany</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="default.html" class="nav-link active">Trang Chủ</a></li>
+                    <li><a href="about.html" class="nav-link">Giới Thiệu</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <!-- Navigation -->
-    <nav class="nav">
-        <ul class="nav-list">
-            <li><a href="default.html" class="nav-link active">Trang Chủ</a></li>
-            <li><a href="about.html" class="nav-link">Giới Thiệu</a></li>
-        </ul>
-    </nav>
-
-    <!-- Main Content -->
-    <main class="main-content">
-        <div class="container">
-            <section class="welcome-section">
-                <h2>Chào mừng đến với RoseCompany Group</h2>
-                <div class="banner">
-                    <img src="images/Group.png" alt="RoseCompany Group Banner" class="banner-image">
-                </div>
-                <div class="welcome-text">
-                    <p>Chúng tôi là một nhóm dự án chuyên nghiệp, cam kết mang đến những giải pháp sáng tạo và hiệu quả cho mọi thách thức. Với kinh nghiệm và chuyên môn sâu rộng, chúng tôi luôn nỗ lực để đạt được những kết quả xuất sắc nhất.</p>
-                    
-                    <p>RoseCompany Group được thành lập với sứ mệnh tạo ra những giá trị bền vững thông qua các dự án chất lượng cao. Chúng tôi tin rằng sự hợp tác, đổi mới và cam kết là chìa khóa để thành công.</p>
-                    
-                    <div class="features">
-                        <h3>Điểm mạnh của chúng tôi:</h3>
-                        <ul>
-                            <li>Kinh nghiệm chuyên sâu trong nhiều lĩnh vực</li>
-                            <li>Đội ngũ thành viên tài năng và nhiệt huyết</li>
-                            <li>Phương pháp làm việc khoa học và hiệu quả</li>
-                            <li>Cam kết chất lượng và thời gian giao hàng</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">Sinh viên • Sáng tạo • Đam mê</div>
+            <h1 class="hero-title">
+                Chào mừng đến với<br>
+                <span class="gradient-text">RoseCompany Group</span>
+            </h1>
+            <p class="hero-description">
+                Nhóm sinh viên đam mê công nghệ, luôn học hỏi và sáng tạo để mang đến những giải pháp độc đáo.
+                Chúng tôi kết hợp kiến thức học thuật với ý tưởng mới mẻ để tạo ra giá trị thực tế.
+            </p>
+            <div class="hero-buttons">
+                <a href="about.html" class="btn btn-primary">Khám phá ngay</a>
+                <a href="#features" class="btn btn-secondary">Tìm hiểu thêm</a>
+            </div>
         </div>
-    </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>&copy; 2024 RoseCompany Group. Tất cả quyền được bảo lưu.</p>
-    </footer>
-</body>
-</html>
+        <div class="hero-image">
+            <div class="image-container">
+                <img src="images/Group.png" alt="RoseCompany Group" class="floating-image">
+                <div class="image-glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Thành viên</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Dự án đã làm</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Năm học tập</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Đam mê học hỏi</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tại sao chọn chúng tôi?</h2>
+                <p class="section-subtitle">Những điểm mạnh giúp chúng tôi trở nên khác biệt</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💡</div>
+                    <h3>Ý tưởng sáng tạo</h3>
+                    <p>Luôn tìm kiếm những cách tiếp cận mới mẻ và sáng tạo cho mọi vấn đề.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Tinh thần teamwork</h3>
+                    <p>Hợp tác chặt chẽ, chia sẻ kiến thức và cùng nhau phát triển.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Học hỏi không ngừng</h3>
+                    <p>Luôn cập nhật công nghệ mới và không ngừng trau dồi kỹ năng.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission-section">
+        <div class="container">
+            <div class="mission-content">
+                <div class="mission-text">
+                    <h2>Về chúng tôi</h2>
+                    <p>RoseCompany Group là nhóm sinh viên năng động với niềm đam mê công nghệ và lập trình. Chúng tôi
+                        tin rằng học tập không chỉ dừng lại ở lý thuyết mà còn cần được thực hành qua các dự án thực tế.
+                    </p>
+                    <p>Mỗi dự án là một cơ hội để chúng tôi áp dụng kiến thức đã học, rèn luyện kỹ năng và học hỏi những
+                        điều mới. Chúng tôi làm việc với tinh thần trách nhiệm và nhiệt huyết để tạo ra những sản phẩm
+                        chất lượng.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Muốn tìm hiểu thêm về nhóm?</h2>
+                <p>Khám phá thêm về các thành viên và dự án của chúng tôi</p>
+                <a href="about.html" class="btn
